@@ -11,17 +11,51 @@ body {
 
 .title {
   background: #e3f4ff;
+  padding: 8px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: white;
+  margin-bottom: 0px;
+  font-size: 16px;
 }
 
 .content {
   background: #e3f4ff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-top-width: 0px;
+  border-left-width: 8px;
+  border-right-width: 8px;
+  border-bottom-width: 8px;
+  border-style: solid;
+  border-color: white;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-bottom-color: white;
+  border-bottom-width: 8px;
+  border-bottom-style: solid;
+  border-left-color: white;
+  border-left-width: 8px;
+  border-left-style: solid;
+  border-right-color: white;
+  border-right-width: 8px;
+  border-right-style: solid;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding-top: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  display: block;
+  margin: auto;
 }
